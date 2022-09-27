@@ -39,19 +39,17 @@ The p-value for lot 2 t-test is 0.61, which is greater than the significance lev
 The p-value for lot 3 t-test is 0.04, which is lower than the significance level of 0.05. Therefore, we would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different. 
 
 ## IV. Study Design: MechaCar vs Competition
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
-
-As gas price spikes, consumers consider the fuel efficiency as an important factor when purchasing a car. Therefore, conducting a statistical study on the fuel efficiency to analyze the MechaCar's performance against the competition would provide more insights for AutosRUs's product development team. 
+As gas price spikes, consumers consider the fuel efficiency as an important factor when purchasing a car. Therefore, conducting a statistical study on the fuel efficiency to analyze the MechaCar's performance against the competition models would provide more insights for AutosRUs's product development team. 
 * Metrics
-    * Fuel efficiency
-    * Fuel type (Gasoline, Hybrid, Electric)
+    * Fuel efficiency 
+    * Road type (city, highway)
     * Drive stystem (2WD, 4WD)
 * Hypothesis
     * H0: The means of fuel efficiency of all vehicles in the class are equal.
     * Ha: At least one of the vehicles in the class has a different mean of fuel efficiency.
 * Statistical test
-    * Two-way ANOVA test: The test is used to test if there is any statistical difference in the fuel efficiency based on the drive system and fuel type. 
+    * A two-way ANOVA test is used to determine if there is any statistical difference in the fuel efficiency based on the drive system and road type. The reason we choose a two ANOVA test is because we compare the means across more than two groups and have two different independent variables.
+* Data needed
+    * Collect datasets from MechaCar and comparable models from other manufacturers.
+    * The dependent variable (Fuel efficiency) data is numerical, continuous, and normally distributed.
+    * The two independent variables (Road type annd Drive system) are categorical as shown in the above metrics description. 
