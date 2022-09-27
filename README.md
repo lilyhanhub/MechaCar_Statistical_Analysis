@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 ## Overview of the project
-The purpose of the project is to perform statistical test using R programming language for a special project of the AutosRUs' new car protoptype. The project consists of four tasks:
+The purpose of the project is to perform statistical test using R programming language for a special project of the AutosRUs' new car protoptype, the MechaCar. The project consists of four tasks:
 1. Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.
 2. Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots.
 3. Run t-tests to determine if the manufacturing lots are statistically different from the mean population.
