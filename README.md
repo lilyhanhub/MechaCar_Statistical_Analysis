@@ -18,9 +18,11 @@ According to the summary output, the r-squared value is 0.7149, which means 71.4
 
 ## II. Summary Statistics on Suspension Coils
 The overall variance for all manufacturing lots is 62.29, which indicates that the current manufacturing data meets the limitation of 100 pounds per square inch requirement. 
+![total_summary](Resources/total_summary.png)
 ![D2_total_summary](Resources/D2_total_summary.png)
 
 When looking into the lot summary of each lot separately, the first lot has a variance of 0.98 and the second lot has a variance of 7.47, both of them meet the design specification. But, the third lot has a variance of 170.29, which greatly exceeds the limitaton of 100 pounds per squre inch specification. Therefore, the third lot does not meet the suspension coils design requirement. 
+![lot_summary](Resources/lot_summary.png)
 ![D2_lot_summary](Resources/D2_lot_summary.png)
 
 ## III. T-Tests on Suspension Coils
